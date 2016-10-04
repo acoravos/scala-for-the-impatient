@@ -59,6 +59,33 @@ object Ex07 extends App {
 
 }
 
+/**
+ * QUESTION 8: Write a function product(s : String) that
+ * competes the product as described in the previous exercise;
+ */
 
+object Ex08 extends App {
+
+  def product(s: String): Long = {
+	"Hello".foldLeft(1L)((a, b) => a * b)
+   }
+
+product("Hello")
+
+/**
+ * QUESTION 9: Make the function of the preceding exercise
+ * a recursive function;
+ */
+
+object Ex09 extends App {
+
+  def productRecursive(s: String): Long = {
+	if(s.length == 0) 1
+	else s(0) * productRecursive(s drop 1)
+   }
+
+productRecursive("Hello")
+
+}
 
 }
