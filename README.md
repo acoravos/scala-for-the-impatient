@@ -1,2 +1,2 @@
-# scala-for-the-impatient
+# Scala for the Impatient
 Solutions for Cay S. Horstmann's Book
