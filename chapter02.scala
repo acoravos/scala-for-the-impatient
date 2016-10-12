@@ -86,6 +86,6 @@ object Ex09 extends App {
 
 productRecursive("Hello")
 
-}
+ }
 
 }
