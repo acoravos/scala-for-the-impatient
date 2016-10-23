@@ -2,7 +2,7 @@
 // of n random integers between 0 (inclusive) and n (exclusive)
 import util.Random
 
-var a = new Array[Int](10)
+var a = new Array[Int](10) 
 for(i <- 0 until a.length) a(i) = Random.nextInt(10)
 a 
 
