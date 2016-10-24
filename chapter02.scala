@@ -6,7 +6,7 @@ package com.acoravos.scala.ch02
  */
 
 object Ex04 extends App {  
-
+ 
   //With a range and reverse
   (0 to 10).reverse.foreach(println)
 
