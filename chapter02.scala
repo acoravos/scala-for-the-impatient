@@ -5,7 +5,7 @@ package com.acoravos.scala.ch02
  * for (int i = 10; i >= 0; i--) System.out.println(i);
  */
 
-object Ex04 extends App {  
+object Ex04 extends App {   
  
   //With a range and reverse
   (0 to 10).reverse.foreach(println)
