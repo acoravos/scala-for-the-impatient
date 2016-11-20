@@ -53,7 +53,7 @@ println(unicodeproduct("Hello"));
  */
 
 object Ex07 extends App {
-
+ 
   // 1L is a long (twos complement integer) of 64 bits
   "Hello".foldLeft(1L)((a, b) => a * b)
 
